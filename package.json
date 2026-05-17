@@ -1,0 +1,41 @@
+{
+  "name": "lakshan-md-bot",
+  "version": "2.0.0",
+  "description": "LAKSHAN MD WhatsApp Bot - Complete WhatsApp Bot with Pairing, Newsletter Reactions, VV Messages, and Advanced Features",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "whatsapp-md",
+    "baileys",
+    "whatsapp-api",
+    "whatsapp-automation",
+    "lakshan-md"
+  ],
+  "author": "Lakshan",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "file-type": "^19.5.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.12",
+    "moment-timezone": "^0.5.45",
+    "mongodb": "^6.8.0",
+    "node-fetch": "^2.7.0",
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
